@@ -18,6 +18,7 @@ class ItemsSet(models.Model):
 class Item(models.Model):
     set = models.ForeignKey(ItemsSet, models.CASCADE)
     image = models.ImageField("Картинка")
+
     
 
 
